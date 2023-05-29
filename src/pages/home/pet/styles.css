@@ -1,0 +1,41 @@
+.pet-main-container {
+  padding: 15px;
+}
+
+.pet-inner-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pet-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.pet-details-container {
+  max-width: 100%;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 25px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pet-single-detail {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.pet-single-detail-half {
+  width: 70px;
+  display: flex;
+  justify-content: flex-start;
+}

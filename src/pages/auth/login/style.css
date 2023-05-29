@@ -1,0 +1,22 @@
+.error {
+  color: red;
+  font-size: 11px;
+  text-align: left;
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+.error2 {
+  color: red;
+  font-size: 11px;
+  text-align: left;
+  position: absolute;
+  top: 45px;
+  z-index: 1;
+}
+.spinner {
+  border-width: 1px;
+  border-color: white;
+  border-right-color: transparent;
+  border-radius: 100%;
+}
